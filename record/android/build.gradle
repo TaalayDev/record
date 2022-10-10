@@ -23,19 +23,4 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 33
-
-    defaultConfig {
-        minSdkVersion 19
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-    }
-
-    lint {
-        disable 'InvalidPackage'
-    }
-
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_8_1
-        targetCompatibility JavaVersion.VERSION_8_1
-    }
 }
